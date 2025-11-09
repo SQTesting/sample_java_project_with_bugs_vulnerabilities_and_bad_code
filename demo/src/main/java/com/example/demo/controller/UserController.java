@@ -38,6 +38,7 @@ public class UserController {
     private UserDao userDao;
 
     // private static final String KEY = System.getenv("ENCRYPTION_KEY");
+    // private static final String KEY = System.getenv("ENCRYPTION_KEY");
     private static final String KEY = System.getenv("ENCRYPTION_KEY");
 
     @PostMapping("/user")
